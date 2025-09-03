@@ -1,15 +1,26 @@
+# Android Studio / IntelliJ
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+
+# Gradle (cache) - NO confundir con 'gradle/' (wrapper)
+.gradle/
+
+# Ignorar todos los build de todos los módulos (app/build, etc.)
+**/build/
+
+# NDK / C++
+.externalNativeBuild/
+.cxx/
+
+# Archivos locales
 local.properties
+
+# Logs
+*.log
+
+# Capturas
+captures/
+
+# SO
+.DS_Store
+Thumbs.db
